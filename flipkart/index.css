@@ -1,0 +1,332 @@
+
+.container{
+    width: 100%;
+    background-color: #e4e7ed;
+    height: 100%;
+    font-family: Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Head */
+.header{
+    color: white;
+    font-family: sans-serif;
+    background-color: #2874f0;
+    display: grid;
+    grid-template-columns: 10% 10% 28% 12% 10% 10% 10% 10%;
+}
+
+.in{
+    text-decoration: none;
+}
+
+.flip{
+    margin-left: 13%;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus{
+    display: flex;
+}
+
+.fli{
+    padding-top: 7px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.explore{
+    margin-top: 0;
+}
+
+.plu{
+margin-top: 0;
+margin-right: 1px;
+
+}
+
+/*  */
+
+.box{
+    /* margin-top: 5PX; */
+    padding-top: 8px;
+    height: 90%;
+}
+
+#src{
+    border: 0px white;
+    color: white;
+    border: 1px solid white;
+    padding-top: 4px;
+    /* margin-top: 5px; */
+    height: 90%;
+    width: 100%;
+}
+
+#src:hover{
+    text-decoration: none;
+}
+
+.srchbx{
+    border: 0px white;
+    /* margin-top: 10px; */
+    background-color: white;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 94% 6%;
+}
+
+
+/*  */
+.login{
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    margin: 13 5 5 30;
+    text-align: center;
+    padding: 5 0 0 0;
+}
+
+.seller, .more, .cart{
+    margin-top: 23px;
+    margin-left: 20px;
+
+}
+
+
+.more{
+    display: flex;
+}
+
+.cart{
+    display: flex;
+}
+
+
+/* Offers */
+
+.offers{
+    text-align: center;
+    display: grid;
+    margin: 0 6% 15 6%;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+/* 
+.topoffers{
+    width: 10%;
+}
+*/
+
+.topoffers{
+    display: flex;
+    flex-direction: column;
+}
+
+.names{
+    margin-left: 5%;
+}
+/* 3rd div */
+
+.outpic{
+    margin: 2;
+    padding: 5;
+    background-color: #e4e7ed;
+}
+
+
+.backarrow{
+    position: absolute;
+    margin-top: 60px;
+    float: right;
+}
+
+
+/* 4th div */
+
+
+.leftright{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    gap: 1px;
+    padding: 5;
+}
+
+.left{
+    /* border:1px solid blue; */
+    height: 250px;
+
+}
+
+.right{
+    /* border: 1px solid red; */
+    height: 250px;
+
+}
+
+.lefttop{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    height: 45px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.offerss{
+
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.leftbottom{
+    /* border: 1px solid black; */
+    padding: 5px;
+    height: 204px ;
+}
+
+.bttm{
+    margin-top: 12px;
+}
+
+.viewall{
+    background-color: #2874f0;
+    text-decoration: none;
+    float: right;
+    /* border: 1px solid #2874f0; */
+    padding: 6px;
+    color: white;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 13px;
+}
+
+.price{
+    color: #848484;
+}
+
+
+
+/* 6th div */
+
+.links{
+    display: flex;
+    color: #848484;
+    font-weight: 500;
+    margin-top: 14px;
+    padding: 14px 0;
+}
+
+.clicks{
+    letter-spacing: 0;
+    color: inherit;
+    font-size: 12px;
+    border-right: 1px solid #333;
+}
+/* 7th div */
+
+.description{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #878787;
+    font-family: Arial,sans-serif;
+    padding-bottom: 15px;
+}
+
+h2, h1{
+    color: grey;
+}
+
+/* 8th div */
+
+.contact{
+    font-family: Arial,sans-serif;
+    /* letter-spacing: 0; */
+    /* border: 1px solid red; */
+    padding-left: 40px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 10% 22.5% 22.5%;
+    text-decoration: none;
+    background-color: #212121;
+}
+.about, .help, .policy, .social, .mail{
+    margin-right: 20px;
+    /* display: grid; */
+    grid-row: auto;
+    color: #878787;
+    font-size: 12px;
+}
+
+.mail p{
+    letter-spacing: 0;
+}
+
+.social{
+    border-right:1px solid #fff;
+ 
+}
+
+.about a, .help a, .policy a, .social a, .mail p{
+    text-decoration: none;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* 9th div */
+
+.last{
+    border-top: #878787 1px solid;
+    width: 100%;
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    color: #f1f3f6;
+    line-height: 1.4;
+    background-color: #212121;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    /* margin-left: 20px; */
+}
+
+.end{
+    margin: 10 0 8 0;
+}
+
+.rr{
+    display: flex;
+}
+
+.last a{
+    margin: 8;
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    margin: 10 10 5 10;
+}
+
+.pay{
+    margin: 10 2 5 30;
+}
+
+.last{
+    padding-top: 7px;
+    padding-bottom: 0;
+
+}
